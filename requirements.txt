@@ -1,0 +1,20 @@
+openai~=1.108.0
+python-dotenv~=1.1.1
+langchain-openai
+langchain~=0.3.27
+gradio~=5.47.0
+beautifulsoup4~=4.13.5
+requests~=2.32.5
+langchain community
+
+
+
+
+
+
+
+langgraph~=1.0.2
+ipython~=9.6.0
+pypdf2~=3.0.1
+streamlit~=1.51.0
+pandas~=2.3.2
