@@ -17,12 +17,12 @@ Problem Statement : How to efficiently analzye and provide resolution to these t
 import os
 from langchain_openai import ChatOpenAI
 from dotenv import load_dotenv
-from crewai import Agent , Task , Crew
+from crewai import Agent, Task, Crew
 from crewai_tools import SerperDevTool
 
 load_dotenv()
 os.environ['OPENAI_API_KEY'] = os.getenv('OPEN_API_KEY')
-os.environ['SERPER_API_KEY'] = '238a48fe4018074fc989652d0d73a8e11c6345d8'
+os.environ['SERPER_API_KEY'] = 'xxx'
 
 llm = ChatOpenAI(model='gpt-4o-mini',temperature=0.2)
 
