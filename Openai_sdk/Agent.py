@@ -6,7 +6,7 @@ from agents import Agent, function_tool, Runner
 
 load_dotenv()
 os.environ['OPENAI_API_KEY'] = os.getenv('OPEN_API_KEY')
-# os.environ['SERPER_API_KEY'] = '238a48fe4018074fc989652d0d73a8e11c6345d8'
+
 
 '''
 3 Agents : 
@@ -16,7 +16,7 @@ os.environ['OPENAI_API_KEY'] = os.getenv('OPEN_API_KEY')
 3. Investment Advisor Agent : Genrate personalized investment recommendations
 
 '''
-SERPER_API_KEY = '238a48fe4018074fc989652d0d73a8e11c6345d8'
+SERPER_API_KEY = 'xxx'
 
 
 @function_tool
